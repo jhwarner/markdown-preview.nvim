@@ -10,6 +10,7 @@ import footnote from 'markdown-it-footnote'
 import markdownItAnchor from 'markdown-it-anchor'
 import markdownItToc from 'markdown-it-toc-done-right'
 import markdownDeflist from 'markdown-it-deflist'
+import markdownAdmonition from 'markdown-it-admonition'
 
 import mk from './katex'
 import chart from './chart'
@@ -209,6 +210,7 @@ export default class PreviewPage extends React.Component {
         .use(markdownItToc, {
           listType: 'ul'
         })
+        .use(markdownAdmonition)
     }
     this.setState({
       cursor,

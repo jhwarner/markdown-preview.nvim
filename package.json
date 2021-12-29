@@ -24,6 +24,7 @@
     "markdown-it-plantuml": "^1.3.0",
     "markdown-it-task-lists": "^2.1.1",
     "markdown-it-toc-done-right": "^4.0.1",
+    "markdown-it-admonition": "^1.0.4",
     "md-it-meta": "^0.0.2",
     "neovim": "^4.2.1",
     "next": "^7.0.2",
